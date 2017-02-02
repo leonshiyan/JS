@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dart Game</title>
+        <script src="project.js" defer></script>
+    </head>
+    <body>
+        <h1>Shooting Game</h1>
+        <br>
+        <button onclick="changeLevel1()" id="level1">LEVEL 1</button>
+        <button onclick="changeLevel2()" id="level2">LEVEL 2</button> 
+        <button onclick="changeLevel3()" id="level3">LEVEL 3</button> 
+        <button onclick="changeLevel1()" >RESET</button> 
+        
+        <br>
+        <br>
+        <button onclick="changePlayer1()" id="button1">Player 1</button>
+        <button onclick="changePlayer2()" id="button2">Player 2</button> <br>
+        <canvas id="board" width="400" height="400"></canvas> <br>
+        <button onclick="xHandler()">Lock X</button>
+        <button onclick="yHandler()">Lock Y</button>
+        <button onclick="shootHandler()">Shoot</button>
+        
+        <h2 >Score Board</h2>
+        <p id ="Players">Player : 1</p>
+        <p id ="scoreBoard">Your shots : <br> Player 1 : <br> Player 2:</p>
+
+        
+
+        
+        
+    </body>
+</html>
